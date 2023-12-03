@@ -1,10 +1,12 @@
+import {} from "react-bootstrap"
 
 const Footer = () => {
   return (
-    <div>
-      ini footer
-    </div>
-  )
+  <div>
+    Ini Footer
+  </div>
+  );
 }
+
 
 export default Footer

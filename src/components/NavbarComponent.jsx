@@ -24,7 +24,13 @@ const NavbarComponent = () => {
     <div>
        <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
       <Container>
-        <Navbar.Brand href="#home">Fruvego</Navbar.Brand>
+        <Navbar.Brand href="#home" className='logo-container'> <img
+            alt="Logo"
+            src="public/logo.png"
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+          />Fruvego</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto text-center">
