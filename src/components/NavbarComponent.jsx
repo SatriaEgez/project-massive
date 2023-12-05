@@ -24,12 +24,12 @@ const NavbarComponent = () => {
     <div>
        <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
       <Container>
-        <Navbar.Brand href="#home" className='logo-container'> <img
+        <Navbar.Brand href="#home" className='logo-container fw-bold'> <img
             alt="Logo"
             src="public/logo.png"
             width="30"
             height="30"
-            className="d-inline-block align-top"
+            className="d-inline-block"
           />Fruvego</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -45,7 +45,7 @@ const NavbarComponent = () => {
           })}
           </Nav>
           <div className='text-center'>
-            <button href="login" className='btn btn-outline-primary rounded-1'>Join With US</button>
+            <button href="/loginPage" className='btn btn-success rounded-1'>Join With US</button>
           </div>
         </Navbar.Collapse>
       </Container>

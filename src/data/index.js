@@ -15,6 +15,23 @@ import People3 from "../assets/img/testimonial/people-3.jpg";
 import Kategori1 from "../assets/img/kategori/sayur.png"
 import Kategori2 from "../assets/img/kategori/buah.png"
 import Kategori3 from "../assets/img/kategori/bumbudpr.png"
+import Kategori4 from "../assets/img/kategori/product-1.jpg"
+import Kategori5 from "../assets/img/kategori/product-2.jpg"
+import Kategori6 from "../assets/img/kategori/product-3.jpg"
+import Kategori7 from "../assets/img/kategori/product-4.jpg"
+import Kategori8 from "../assets/img/kategori/product-5.jpg"
+import Kategori9 from "../assets/img/kategori/product-6.jpg"
+import Kategori10 from "../assets/img/kategori/product-7.jpg"
+import Kategori11 from "../assets/img/kategori/product-8.jpg"
+import Kategori12 from "../assets/img/kategori/product-9.jpg"
+import Kategori13 from "../assets/img/kategori/product-10.jpg"
+import Kategori14 from "../assets/img/kategori/product-11.jpg"
+
+import Farmer from "../assets/img/farmer.png"
+
+import MitraSayur from "../assets/img/mitra_sayur.png"
+import MitraBuah from "../assets/img/mitra_buah.png"
+
 
 export const navLinks = [
   {
@@ -246,26 +263,128 @@ export const navLinks = [
 //     delay: "400",
 //   },
 // ];
+export const semuaKategori = [
+  {
+    id: 1,
+    image: Kategori4,
+    title: "Sayur",
+    delay: ""
+  },
+  {
+    id: 2,
+    image: Kategori5,
+    title: "Buah",
+    delay: ""
+  },
+  {
+    id: 3,
+    image: Kategori6,
+    title: "Bumbu Dapur",
+    delay: ""
+  },
+  {
+    id: 4,
+    image: Kategori7,
+    title: "Bumbu Dapur",
+    delay: ""
+  },
+  {
+    id: 5,
+    image: Kategori8,
+    title: "Bumbu Dapur",
+    delay: ""
+  },
+  {
+    id: 6,
+    image: Kategori9,
+    title: "Bumbu Dapur",
+    delay: ""
+  },
+  {
+    id: 7,
+    image: Kategori10,
+    title: "Bumbu Dapur",
+    delay: ""
+  },
+  {
+    id: 8,
+    image: Kategori11,
+    title: "Bumbu Dapur",
+    delay: ""
+  },
+  {
+    id: 9,
+    image: Kategori12,
+    title: "Bumbu Dapur",
+    delay: ""
+  },
+  {
+    id: 10,
+    image: Kategori13,
+    title: "Bumbu Dapur",
+    delay: ""
+  },
+  {
+    id: 11,
+    image: Kategori14,
+    title: "Bumbu Dapur",
+    delay: ""
+  },
+
+]
 
 export const kategoriTerbaru = [
     {
       id: 1,
       image: Kategori1,
       title: "Sayur",
-      
+      delay: ""
     },
     {
       id: 2,
       image: Kategori2,
       title: "Buah",
-      
+      delay: ""
     },
     {
       id: 3,
       image: Kategori3,
       title: "Bumbu Dapur",
-      
+      delay: ""
     },
+  ]
+
+  export const sellerFarmer = [
+    {
+      id: 1,
+      image: Farmer,
+      title: "Mau Mulai Jualan?",
+      desc: "Wah permulaan yang baik yuk cari tahu cara dan tips mulai jualan di fruvego",
+      btn : "Mulai Jualan",
+      delay: ""
+    },
+  
+  ]
+
+  export const Mitra = [
+    {
+      id: 1,
+      image: MitraSayur,
+      title: "MITRA SAYUR",
+      desc: "Wah permulaan yang baik yuk cari tahu cara dan tips mulai jualan di fruvego",
+      btn : "Mulai Jualan",
+      delay: ""
+    },
+    {
+      id: 2,
+      image: MitraBuah,
+      title: "MITRA BUAH",
+      desc: "Wah permulaan yang baik yuk cari tahu cara dan tips mulai jualan di fruvego",
+      btn : "Mulai Jualan",
+      delay: ""
+    },
+  
+  
   ]
   
 
