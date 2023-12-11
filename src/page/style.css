@@ -1,0 +1,312 @@
+.halaman1 {
+    align-items: center;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    overflow: hidden;
+    padding: 12.9rem 10.4rem 13rem 7.9rem;
+    position: relative;
+    width: 100%;
+  
+    .group {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      margin: 0rem 3.1rem 18.5rem 0rem;
+  
+      .logo{
+        flex-shrink: 0;
+        height: 29.4rem;
+        margin: 0rem 8.8rem 4.6rem 0rem;
+        object-fit: cover;
+        vertical-align: top;
+        width: 29.9rem;
+      }
+     .teks{
+        color: #000000;
+        flex-shrink: 0;
+        font-family: Poppins, 'Source Sans Pro';
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: 1.5;
+        margin: 0rem 8.4rem 1rem 0rem;
+        text-align: center;
+        white-space: nowrap;
+      }
+      .teks1{
+        color: #000000;
+        flex-shrink: 0;
+        font-family: Poppins, 'Source Sans Pro';
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.5;
+        max-width: 57.1rem;
+      }
+    }
+    .auto-group{
+      background-color: #f2f2f2;
+      border-radius: 1rem;
+      flex-shrink: 0;
+      height: 76.5rem;
+      position: relative;
+      width: 65.5 rem;
+  
+      .username {
+        color: rgba(0, 0, 0, 0.5);
+        font-family: Poppins, 'Source Sans Pro';
+        font-size: 1.5rem;
+        font-weight: 400;
+        height: 2.3rem;
+        left: 8.8rem;
+        line-height: 1.5;
+        position: absolute;
+        top: 17.1rem;
+        white-space: nowrap;
+        width: 20.2rem;
+      }
+      .login{
+        color: #000000;
+        font-family: Poppins, 'Source Sans Pro';
+        font-size: 4rem;
+        font-weight: 700;
+        height: 6rem;
+        left: 6.5rem;
+        line-height: 1.5;
+        position: absolute;
+        top: 2.3rem;
+        white-space: nowrap;
+        width: 11.9rem;
+      }
+      .rectangle {
+        background-color: #50ab1a;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        height: 6.4rem;
+        left: 6.5rem;
+        position: absolute;
+        top: 31.7rem;
+        width: 51.3rem;
+      }
+      .rectangle-1 {
+        border: solid 0.1rem #737373;
+        border-radius: 0.5rem;
+        box-sizing: border-box;
+        height: 6.2rem;
+        left: 6.5rem;
+        position: absolute;
+        top: 31.9rem;
+        width: 51.3rem;
+      }
+      .log-in{
+        color: #ffffff;
+        font-family: Poppins, 'Source Sans Pro';
+        font-size: 1.5rem;
+        font-weight: 700;
+        height: 2.3rem;
+        left: 31rem;
+        line-height: 1.5;
+        position: absolute;
+        top: 33.7rem;
+        white-space: nowrap;
+        width: 5rem;
+      }
+      .group-1 {
+        align-items: center;
+        display: flex;
+        height: 1.6rem;
+        left: 5.1rem;
+        position: absolute;
+        top: 47.1rem;
+        width: 54.1rem;
+  
+        .line-3 {
+          background-color: #000000;
+          flex-shrink: 0;
+          height: 0.05rem;
+          margin: 0.25rem 1.85rem 0rem 0rem;
+          width: 17rem;
+        }
+        .atau {
+          align-items: center;
+          color: #000000;
+          display: flex;
+          flex-shrink: 0;
+          font-family: Poppins, 'Source Sans Pro';
+          font-size: 1.6rem;
+          font-weight: 400;
+          justify-content: center;
+          line-height: 1;
+          margin-right: 1.95rem;
+          white-space: nowrap;
+        }
+        .line {
+          background-color: #000000;
+          flex-shrink: 0;
+          height: 0.05rem;
+          margin-top: 0.25rem;
+          width: 16.9rem;
+        }
+      }
+      .rectangle-3{
+        border: solid 0.1rem #737373;
+        border-radius: 0.5rem;
+        box-sizing: border-box;
+        height: 6.6rem;
+        left: 6.5rem;
+        position: absolute;
+        top: 54rem;
+        width: 22.4rem;
+      }
+      .rectangle-3-1{
+        border: solid 0.1rem #737373;
+        border-radius: 0.5rem;
+        box-sizing: border-box;
+        height: 6.6rem;
+        left: 35.2rem;
+        position: absolute;
+        top: 54rem;
+        width: 22.6rem;
+      }
+      .google{
+        height: 2.1001rem;
+        left: 41.8rem;
+        object-fit: contain;
+        position: absolute;
+        top: 56.5rem;
+        vertical-align: top;
+        width: 2.3rem;
+      }
+      .facebook{
+        height: 2.1722rem;
+        left: 12.4rem;
+        object-fit: contain;
+        position: absolute;
+        top: 56.1rem;
+        vertical-align: top;
+        width: 2.3rem;
+      }
+      .rectangle-3-2{
+        border: solid 0.1rem #737373;
+        border-radius: 0.5rem;
+        box-sizing: border-box;
+        height: 76.5rem;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 65.5rem;
+      }
+      .facebook-1 {
+        align-items: center;
+        color: #000000;
+        font-family: Poppins, 'Source Sans Pro';
+        font-size: 1.5rem;
+        font-weight: 400;
+        height: 2.3rem;
+        left: 16.1rem;
+        line-height: 1.5;
+        position: absolute;
+        top: 56.1rem;
+        white-space: nowrap;
+        width: 7.4rem;
+      }
+      .google-1{
+        color: #000000;
+        font-family: Poppins, 'Source Sans Pro';
+        font-size: 1.5rem;
+        font-weight: 400;
+        height: 2.3rem;
+        left: 45.5rem;
+        line-height: 1.5;
+        position: absolute;
+        top: 56.2rem;
+        white-space: nowrap;
+        width: 5.5rem;
+      }
+      .baru {
+        color: rgba(0, 0, 0, 0.5);
+        font-family: Poppins, 'Source Sans Pro';
+        font-size: 1.5rem;
+        font-weight: 400;
+        height: 2.3rem;
+        left: 21rem;
+        line-height: 1.5;
+        position: absolute;
+        text-align: center;
+        top: 66.3rem;
+        white-space: nowrap;
+        width: 12.5rem;
+      }
+      .register{
+        color: #50ab1a;
+        cursor: pointer;
+        font-family: Poppins, 'Source Sans Pro';
+        font-size: 1.5rem;
+        font-weight: 700;
+        height: 2.3rem;
+        left: 33.65rem;
+        line-height: 1.5;
+        position: absolute;
+        text-align: center;
+        top: 66.3rem;
+        white-space: nowrap;
+        width: 6.4rem;
+      }
+      .rectangle-3-2 {
+        border: solid 0.1rem #737373;
+        border-radius: 0.5rem;
+        box-sizing: border-box;
+        height: 6.6rem;
+        left: 6.5rem;
+        position: absolute;
+        top: 23rem;
+        width: 51.3rem;
+      }
+      .rectangle-3-3 {
+        border: solid 0.1rem #737373;
+        border-radius: 0.5rem;
+        box-sizing: border-box;
+        height: 6.6rem;
+        left: 6.5rem;
+        position: absolute;
+        top: 15rem;
+        width: 51.3rem;
+      }
+      .password{
+        color: rgba(0, 0, 0, 0.5);
+        font-family: Poppins, 'Source Sans Pro';
+        font-size: 1.5rem;
+        font-weight: 400;
+        height: 2.3rem;
+        left: 8.8rem;
+        line-height: 1.5;
+        position: absolute;
+        top: 25.3rem;
+        white-space: nowrap;
+        width: 19.6rem;
+      }
+      .mata {
+        height: 1.8rem;
+        left: 53.4rem;
+        object-fit: contain;
+        position: absolute;
+        top: 25.6rem;
+        vertical-align: top;
+        width: 2.2rem;
+      }
+      .lupa-pasword{
+        color: rgba(0, 0, 0, 0.5);
+        font-family: Rubik, 'Source Sans Pro';
+        font-size: 1.5rem;
+        font-weight: 600;
+        height: 1.8rem;
+        left: 6.8rem;
+        line-height: 1.185;
+        position: absolute;
+        top: 39.5rem;
+        white-space: nowrap;
+        width: 11.2rem;
+      }
+    }
+  }
+  
